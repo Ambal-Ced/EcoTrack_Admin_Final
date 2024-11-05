@@ -1,9 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using EcoTrackAdmin.Areas.Identity.Data
-
-@inject SignInManager<ApplicationUser> SignInManager
-@inject UserManager<ApplicationUser> UserManager
-
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 @inject EcoTrackAdmin.Areas.Identity.Data.ApplicationDbContext DbContext
@@ -13,16 +9,33 @@
     {
         var userId = UserManager.GetUserId(User);
         var userProfile = DbContext.UserProfiles.FirstOrDefault(u => u.ApplicationUserId == userId);
-        var uniqueUserName = userProfile?.UniqueUserName ?? "User";
 
-        <li class="nav-item">
-            <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><span class="Adm">*</span>Hello @uniqueUserName!<span class="Adm">*</span></a>
-        </li>
-        <li class="nav-item">
-            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
-            </form>
-        </li>
+        // Check if the user is an admin
+        var user = await UserManager.FindByIdAsync(userId);
+        if (user != null && user.Type == "Admin")
+        {
+            var uniqueUserName = userProfile?.UniqueUserName ?? "User";
+
+            <li class="nav-item">
+                <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                    <span class="Adm">*</span>Hello @uniqueUserName!<span class="Adm">*</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button id="logout" type="submit" class="nav-link btn btn-link text-dark border-0">Logout</button>
+                </form>
+            </li>
+        }
+        else
+        {
+            <li class="nav-item">
+                <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Register</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
+            </li>
+        }
     }
     else
     {

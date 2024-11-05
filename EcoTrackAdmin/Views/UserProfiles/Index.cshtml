@@ -13,9 +13,17 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ApplicationUser)
+                <h5>ID</h5>
             </th>
-            <th></th>
+            <th>
+                <h5>EMAIL</h5>
+            </th>
+            <th>
+                <h5>USERNAME</h5>
+            </th>
+            <th>
+                <h5>TYPE</h5>
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -24,6 +32,15 @@
             <td>
                 @Html.DisplayFor(modelItem => item.ApplicationUser.Id)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationUser.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UniqueUserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationUser.Type)
+                </td>
             <td>
                 <a asp-action="Edit" asp-route-id="@item.UniqueUserName">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.UniqueUserName">Details</a> |

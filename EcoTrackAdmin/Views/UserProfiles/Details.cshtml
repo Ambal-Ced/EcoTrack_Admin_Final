@@ -10,11 +10,46 @@
     <h4>UserProfile</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ApplicationUser)
-        </dt>
         <dd class = "col-sm-10">
+            <h6>ID: 
             @Html.DisplayFor(model => model.ApplicationUser.Id)
+            </h6>
+        </dd>
+        <dd class="col-sm-10">
+            <h6>First Name:
+                @Html.DisplayFor(model => model.ApplicationUser.FirstName)
+            </h6>
+        </dd>
+        <dd class="col-sm-10">
+            <h6> Last Name: 
+            @Html.DisplayFor(model => model.ApplicationUser.LastName)
+            </h6>
+        </dd>
+        <dd class="col-sm-10">
+            <h6>Email:
+                @Html.DisplayFor(model => model.ApplicationUser.Email)
+            </h6>
+        </dd>
+        <dd class="col-sm-10">
+            <h6>Type: 
+            @Html.DisplayFor(model => model.ApplicationUser.Type)
+            </h6>
+        </dd>
+        <dd class="col-sm-10">
+            <h6>Contact No.:
+                @Html.DisplayFor(model => model.ApplicationUser.PhoneNumber)
+            </h6>
+        </dd>
+
+        <dd class="col-sm-10">
+            <h6>Username:
+                @Html.DisplayFor(model => model.UniqueUserName)
+            </h6>
+        </dd>
+        <dd class="col-sm-10">
+            <h6>Date Created:
+                @Html.DisplayFor(model => model.Month)
+            </h6>
         </dd>
     </dl>
 </div>

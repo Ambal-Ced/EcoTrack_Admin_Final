@@ -110,11 +110,20 @@ namespace EcoTrackAdmin.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+
                 if (result.Succeeded)
                 {
+                    // Retrieve the user to check their type
+                    var user = await _signInManager.UserManager.FindByEmailAsync(Input.Email);
+                    if (user.Type != "Admin")
+                    {
+                        // Log out the user and display an error
+                        await _signInManager.SignOutAsync();
+                        ModelState.AddModelError(string.Empty, "Only admin users can log in.");
+                        return Page();
+                    }
+
                     _logger.LogInformation("User logged in.");
                     return LocalRedirect(returnUrl);
                 }
@@ -134,7 +143,6 @@ namespace EcoTrackAdmin.Areas.Identity.Pages.Account
                 }
             }
 
-            // If we got this far, something failed, redisplay form
             return Page();
         }
     }

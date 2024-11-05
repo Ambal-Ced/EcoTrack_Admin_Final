@@ -81,15 +81,18 @@ namespace EcoTrackAdmin.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             /// 
-            [Required]
+            
             [Display(Name = "Unique Username")]
             public string UniqueUserName { get; set; }
 
-            [Required]
+            [Display(Name = "Unique Username")]
+            public string DateTime { get; set; }
+
+
             [Display(Name = "FirstName")]
             public string FirstName { get; set; }
 
-            [Required]
+            
             [Display(Name = "LastName")]
             public string LastName { get; set; }
 
@@ -150,6 +153,10 @@ namespace EcoTrackAdmin.Areas.Identity.Pages.Account
                 user.FirstName = Input.FirstName;
                 user.LastName = Input.LastName;
                 user.Type = "Admin";
+                user.DateTime = DateTime.Now;
+                
+
+                
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
@@ -158,6 +165,7 @@ namespace EcoTrackAdmin.Areas.Identity.Pages.Account
                     // Create and add the UserProfile record with the UniqueUserName
                     var userProfile = new UserProfile
                     {
+                        Month = DateTime.Now,
                         UniqueUserName = Input.UniqueUserName,
                         ApplicationUserId = user.Id
                     };

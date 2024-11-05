@@ -34,6 +34,9 @@ namespace EcoTrackAdmin.Migrations
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .HasMaxLength(256)
                         .HasColumnType("nvarchar(256)");
@@ -107,6 +110,9 @@ namespace EcoTrackAdmin.Migrations
                     b.Property<string>("ApplicationUserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("Month")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("UniqueUserName");
 

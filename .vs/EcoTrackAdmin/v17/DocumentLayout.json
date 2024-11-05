@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\areas\\identity\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\areas\\identity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\fwbvevmn..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241103073446_initil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcoTrackAdmin\\Migrations\\20241103073446_initil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\models\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\controllers\\userprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\controllers\\userprofilescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\views\\userprofiles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\views\\userprofiles\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\views\\userprofiles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\views\\userprofiles\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\uowyz1a2..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\views\\userprofiles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\views\\userprofiles\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\views\\userprofiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\views\\userprofiles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\m5u1fnbz..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241101092525_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EcoTrackAdmin\\Migrations\\20241101092525_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|c:\\users\\desktop\\source\\repos\\ecotrackadmin\\ecotrackadmin__\\ecotrackadmin\\migrations\\20241103074824_initil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3097D67-2FC6-492A-9CB9-9123F64C4FA8}|EcoTrackAdmin\\EcoTrackAdmin.csproj|solutionrelative:ecotrackadmin\\migrations\\20241103074824_initil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T08:57:29.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:13:24.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:33:17.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:29:37.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Details.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Views\\UserProfiles\\Details.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Details.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Views\\UserProfiles\\Details.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T11:02:48.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAASwJsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:41:26.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Program.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Program.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:24:48.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\appsettings.json",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\appsettings.json",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\appsettings.json",
+              "RelativeToolTip": "EcoTrackAdmin\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-01T09:24:48.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:50:38.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAUwJIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:50:40.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Areas\\Identity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T14:12:30.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserProfilesController.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Controllers\\UserProfilesController.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Controllers\\UserProfilesController.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Controllers\\UserProfilesController.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Controllers\\UserProfilesController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAUwHkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T11:50:20.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20241103074824_initil.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241103074824_initil.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Migrations\\20241103074824_initil.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241103074824_initil.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Migrations\\20241103074824_initil.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:48:24.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241103073446_initil.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241103073446_initil.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Migrations\\20241103073446_initil.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241103073446_initil.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Migrations\\20241103073446_initil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T07:34:46.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "fwbvevmn..sql",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\fwbvevmn..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\fwbvevmn..sql",
+              "ToolTip": "C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\fwbvevmn..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\fwbvevmn..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-03T07:43:32.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Delete.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Views\\UserProfiles\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Delete.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Views\\UserProfiles\\Delete.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T09:30:38.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "uowyz1a2..sql",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\uowyz1a2..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\uowyz1a2..sql",
+              "ToolTip": "C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\uowyz1a2..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\uowyz1a2..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-01T10:54:08.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "EcoTrackAdmin\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-01T14:24:20.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Models\\UserProfile.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Models\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Models\\UserProfile.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Models\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:40:22.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Views\\UserProfiles\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Edit.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Views\\UserProfiles\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T13:34:08.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Index.cshtml",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Views\\UserProfiles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Views\\UserProfiles\\Index.cshtml",
+              "RelativeToolTip": "EcoTrackAdmin\\Views\\UserProfiles\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T11:30:22.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "m5u1fnbz..sql",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\m5u1fnbz..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\m5u1fnbz..sql",
+              "ToolTip": "C:\\Users\\DESKTOP\\AppData\\Local\\Temp\\m5u1fnbz..sql",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\m5u1fnbz..sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-01T09:31:22.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241101092525_init.cs",
+              "DocumentMoniker": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241101092525_init.cs",
+              "RelativeDocumentMoniker": "EcoTrackAdmin\\Migrations\\20241101092525_init.cs",
+              "ToolTip": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\Migrations\\20241101092525_init.cs",
+              "RelativeToolTip": "EcoTrackAdmin\\Migrations\\20241101092525_init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T09:25:25.689Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
