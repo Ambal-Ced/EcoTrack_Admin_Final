@@ -1,8 +1,31 @@
 ﻿@page
 @model ConfirmEmailModel
 @{
-    ViewData["Title"] = "Confirm email";
+    ViewData["Title"] = "";
 }
 
 <h1>@ViewData["Title"]</h1>
-<partial name="_StatusMessage" model="Model.StatusMessage" />
+
+<h2>Welcome to EcoTrack!</h2>
+<p>
+    We’re excited to have you here! EcoTrack is your go-to platform for analyzing your rates and tracking changes in your bills. Our AI-driven insights are designed to help you understand your energy usage, identify trends, and make informed decisions to save money and reduce your environmental impact.
+</p>
+<p>
+    Getting started is easy! Simply input your data, and let EcoTrack do the heavy lifting. Whether you’re looking to lower your bills or simply gain a better understanding of your consumption patterns, we’re here to guide you every step of the way.
+</p>
+<p>
+    Thank you for choosing EcoTrack. Together, let's make a positive impact on your finances and the planet!
+</p>
+<p>
+    If you have any questions or need assistance, don’t hesitate to reach out.
+</p>
+<p>
+    Happy tracking!
+</p>
+<p>
+    Best,
+    The EcoTrack Team
+</p>
+<div style="margin-top: 20px;">
+    <a class="btn bg-greener" asp-page="/Account/Login" asp-area="Identity">Proceed to Login</a>
+</div>

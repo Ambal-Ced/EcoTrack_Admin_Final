@@ -8,10 +8,101 @@
 @{
     if (@Model.DisplayConfirmAccountLink)
     {
-<p>
-    This app does not currently have a real email sender registered, see <a href="https://aka.ms/aspaccountconf">these docs</a> for how to configure a real email sender.
-    Normally this would be emailed: <a id="confirm-link" href="@Model.EmailConfirmationUrl">Click here to confirm your account</a>
-</p>
+        <div class="registerwelcom">
+            <h1>Welcome to EcoTrack! By using our website and services, you agree to these Terms and Conditions. Please read them carefully.</h1>
+            <h2>1. Acceptance of Terms</h2>
+            <p>
+                By accessing or using EcoTrack (the “Site”), you agree to comply with and be bound by these Terms. If you do not agree, please do not use our Site.
+            </p>
+
+            <h2>2. Services Provided</h2>
+            <p>
+                EcoTrack provides tools for users to analyze their rates and bill fluctuations using data input by the user. Our AI offers insights based on the provided data.
+            </p>
+
+            <h2>3. User Obligations</h2>
+            <p>
+                You agree to provide accurate and complete information when using our services. You are responsible for all activities that occur under your Account.
+            </p>
+
+            <h2>4. Intellectual Property</h2>
+            <p>
+                All content and materials on EcoTrack are protected by copyright, trademarks, and other intellectual property laws. You may not use, reproduce, or distribute any content without prior written consent.
+            </p>
+
+            <h2>5. Limitation of Liability</h2>
+            <p>
+                EcoTrack is not responsible for any damages arising from the use or inability to use our services, including any indirect, incidental, or consequential damages.
+            </p>
+
+            <h2>6. Data Collection</h2>
+            <p>
+                By using EcoTrack, you acknowledge that we may collect and use your data in accordance with our Privacy Notice.
+            </p>
+
+            <h2>7. Changes to Terms</h2>
+            <p>
+                We may modify these Terms at any time. Your continued use of the Site after changes constitute your acceptance of the new Terms.
+            </p>
+
+            <h2>8.Governing Law</h2>
+            <p>
+                These Terms shall be governed by and construed in accordance with the laws of the Republic of the Philippines.
+            </p>
+
+            <h2>9.Contact</h2>
+            <p>
+                For any questions about these Terms, please contact us at [Contact Email].
+            </p>
+
+            <h1>
+                Privacy Notice
+            </h1>
+            <h2>
+                At EcoTrack, we take your privacy seriously. This Privacy Notice explains how we collect, use, and protect your data.
+            </h2>
+            <h2>1. Data We Collect</h2>
+            <p>
+                Personal information you provide (e.g., name, email).
+                Usage data (e.g., IP address, browser type).
+                Input data related to your rates and bills.
+            </p>
+
+            <h2>2. How We Use Your Data</h2>
+            <p>
+                To provide and improve our services.
+                To analyze trends and usage to enhance user experience.
+                To communicate with you, such as responding to inquiries.
+            </p>
+
+            <h2>3.Data Sharing</h2>
+            <p>
+                We do not sell or rent your personal data to third parties. We may share your information with service providers who help us operate EcoTrack.
+            </p>
+
+            <h2>4. Data Security</h2>
+            <p>
+                We implement appropriate security measures to protect your information from unauthorized access, alteration, and destruction.
+            </p>
+
+            <h2>5. Your Rights</h2>
+            <p>
+                You may request access to your personal data we hold or ask us to delete it under applicable data protection laws.
+            </p>
+
+            <h2>6. Changes to This Privacy Notice</h2>
+            <p>
+                We may update this Privacy Notice from time to time. Any changes will be posted on this page.
+            </p>
+
+            <h2>7. Contact Us</h2>
+            <p>
+                If you have questions or concerns about our Privacy Notice, please contact us at [Contact Email].
+            </p>
+        </div>
+
+        <a id="confirm-link" href="@Model.EmailConfirmationUrl" class="btn bg-greener clamp">Click here to confirm your account</a>
+
     }
     else
     {

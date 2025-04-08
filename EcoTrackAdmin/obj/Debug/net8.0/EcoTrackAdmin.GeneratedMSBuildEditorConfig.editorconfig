@@ -17,139 +17,167 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EcoTrackAdmin
 build_property.RootNamespace = EcoTrackAdmin
-build_property.ProjectDir = C:\Users\DESKTOP\source\repos\EcoTrackAdmin\EcoTrackAdmin__\EcoTrackAdmin\
+build_property.ProjectDir = D:\rest\ftf\EcoTrack_Admin_\EcoTrackAdmin\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\DESKTOP\source\repos\EcoTrackAdmin\EcoTrackAdmin__\EcoTrackAdmin
+build_property.MSBuildProjectDirectory = D:\rest\ftf\EcoTrack_Admin_\EcoTrackAdmin
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Login.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Logout.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/Register.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/_ViewImports.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Areas/Identity/Pages/_ViewStart.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/Home/Index.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/EmailRequests/Approve.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxSZXF1ZXN0c1xBcHByb3ZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/EmailRequests/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxSZXF1ZXN0c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/EmailRequests/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxSZXF1ZXN0c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/EmailRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxSZXF1ZXN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/FeedbackDatas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tEYXRhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/FeedbackDatas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tEYXRhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/Home/Privacy.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/Shared/Error.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/Shared/_LoginPartial.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/UserProfiles/Create.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/UserProfiles/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/UserProfiles/Delete.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/UserProfiles/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/UserProfiles/Details.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/UserProfiles/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/UserProfiles/Edit.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/UserProfiles/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/UserProfiles/Index.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/UserProfiles/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclByb2ZpbGVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/_ViewImports.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/_ViewStart.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/DESKTOP/source/repos/EcoTrackAdmin/EcoTrackAdmin__/EcoTrackAdmin/Views/Shared/_Layout.cshtml]
+[D:/rest/ftf/EcoTrack_Admin_/EcoTrackAdmin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-3anm90dha9

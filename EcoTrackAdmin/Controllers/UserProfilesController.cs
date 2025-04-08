@@ -8,14 +8,17 @@ using Microsoft.EntityFrameworkCore;
 using EcoTrackAdmin.Areas.Identity.Data;
 using EcoTrackAdmin.Models;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;  // Add this namespace
 
 namespace EcoTrackAdmin.Controllers
 {
+    // Apply the [Authorize] attribute to restrict access to authenticated users
+    [Authorize]
     public class UserProfilesController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly UserManager<ApplicationUser> _userManager;
-        
+
         public UserProfilesController(ApplicationDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
@@ -56,8 +59,6 @@ namespace EcoTrackAdmin.Controllers
         }
 
         // POST: UserProfiles/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("UniqueUserName,ApplicationUserId")] UserProfile userProfile)
@@ -93,10 +94,7 @@ namespace EcoTrackAdmin.Controllers
             return View(userProfile);
         }
 
-
         // POST: UserProfiles/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, UserProfile userProfile)
@@ -110,7 +108,6 @@ namespace EcoTrackAdmin.Controllers
             {
                 try
                 {
-                    // Retrieve the existing UserProfile including the ApplicationUser
                     var existingUserProfile = await _context.UserProfiles
                         .Include(up => up.ApplicationUser)
                         .FirstOrDefaultAsync(up => up.UniqueUserName == id);
@@ -120,10 +117,8 @@ namespace EcoTrackAdmin.Controllers
                         return NotFound();
                     }
 
-                    // Update UserProfile fields
                     existingUserProfile.ApplicationUserId = userProfile.ApplicationUserId;
 
-                    // Update ApplicationUser fields
                     var applicationUser = existingUserProfile.ApplicationUser;
                     if (applicationUser != null)
                     {
@@ -131,7 +126,6 @@ namespace EcoTrackAdmin.Controllers
                         applicationUser.LastName = userProfile.ApplicationUser.LastName;
                         applicationUser.Type = userProfile.ApplicationUser.Type;
 
-                        // Only update PhoneNumber if it is currently null
                         if (string.IsNullOrEmpty(applicationUser.PhoneNumber))
                         {
                             applicationUser.PhoneNumber = userProfile.ApplicationUser.PhoneNumber;
@@ -140,7 +134,6 @@ namespace EcoTrackAdmin.Controllers
                         _context.Users.Update(applicationUser);
                     }
 
-                    // Save changes to both UserProfile and ApplicationUser
                     _context.UserProfiles.Update(existingUserProfile);
                     await _context.SaveChangesAsync();
                 }
@@ -158,12 +151,9 @@ namespace EcoTrackAdmin.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            // If model validation fails, reload the dropdown for ApplicationUserId
             ViewData["ApplicationUserId"] = new SelectList(_context.Users, "Id", "Id", userProfile.ApplicationUserId);
             return View(userProfile);
         }
-
-
 
         // GET: UserProfiles/Delete/5
         public async Task<IActionResult> Delete(string id)
@@ -185,7 +175,6 @@ namespace EcoTrackAdmin.Controllers
         }
 
         // POST: UserProfiles/Delete/5
-        // POST: UserProfiles/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
@@ -196,13 +185,12 @@ namespace EcoTrackAdmin.Controllers
 
             if (userProfile != null)
             {
-                var user = userProfile.ApplicationUser; // Get the associated ApplicationUser
+                var user = userProfile.ApplicationUser;
                 if (user != null)
                 {
-                    await _userManager.DeleteAsync(user); // Delete the user
+                    await _userManager.DeleteAsync(user);
                 }
 
-                // Now delete the user profile
                 _context.UserProfiles.Remove(userProfile);
                 try
                 {
@@ -211,24 +199,19 @@ namespace EcoTrackAdmin.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    // Handle concurrency issue
                     if (!UserProfileExists(userProfile.UniqueUserName))
                     {
                         return RedirectToAction(nameof(Index));
-                        
                     }
                     else
                     {
-                        throw; // Re-throw the exception if the entity still exists
+                        throw;
                     }
                 }
             }
 
             return RedirectToAction(nameof(Index));
-            
         }
-
-
 
         private bool UserProfileExists(string id)
         {

@@ -15,6 +15,9 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     }
     //Add Dbset
     public DbSet<UserProfile> UserProfiles { get; set; }
+    public DbSet<FeedbackData> FeedbackDatas { get; set; }
+    public DbSet<Notification> Notifications { get; set; }
+    public DbSet<EmailRequest> EmailRequests { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {

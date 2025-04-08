@@ -1,8 +1,58 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@using Microsoft.AspNetCore.Identity
+@using EcoTrackAdmin.Areas.Identity.Data
+@inject UserManager<ApplicationUser> UserManager
+
+    @{
+    ViewData["Title"] = "Home Page";
+    var isAuthenticated = (bool?)ViewData["IsAuthenticated"] ?? false;  // Get the login status
+    }
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>@ViewData["Title"]</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/ecos.styles.css" asp-append-version="true" />
+    </head>
+    <body>
+        <div class="container_">
+            <video autoplay loop muted plays-inline class="background-clip_">
+                <source src="~/css/bg/bg1.mp4" type="video/mp4" />
+            </video>
+            <div class="content_">
+                <h1>Ecotrack:</h1>
+                <h2>Electricity Analyzing Web Tool</h2>
+                <p>Ecotrack is your go-to web tool for in-depth electricity analysis, helping you monitor usage patterns and identify opportunities for savings. Unlock the potential for energy efficiency and sustainable living with actionable insights tailored to your needs.</p>
+
+                <!-- Conditionally render buttons if the user is not authenticated -->
+                @if (!isAuthenticated)
+            {
+                <div class="links">
+                    <a class="btn btn-green" asp-area="Identity" asp-page="/Account/Login">Proceed To Login</a>
+                    <a class="btn btn-green" asp-area="Identity" asp-page="/Account/Register">Be an Ecotrack Member</a>
+                </div>
+            }
+            else
+            {
+                var user = await UserManager.GetUserAsync(User); // Get the logged-in user
+                string firstName = user?.FirstName ?? "User";
+ <!-- Optionally, show a message or redirect after login -->
+                <div class="links">
+                    <a class="btn btn-green" asp-area="Identity" asp-page="/Account/Manage/Index">View Account</a>
+                </div>
+            }
+            </div>
+        </div>
+
+        <div class="bgm_">
+            <audio autoplay loop>
+                <source src="~/css/bg/bg1.mp4" />
+            </audio>
+        </div>
+    </body>
+</html>

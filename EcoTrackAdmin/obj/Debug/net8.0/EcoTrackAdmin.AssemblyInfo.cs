@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EcoTrackAdmin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3da949801aa990813dd13ef5a4e547490751872")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de36fb572875f07998d1b34f2219a8a9390ea658")]
 [assembly: System.Reflection.AssemblyProductAttribute("EcoTrackAdmin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EcoTrackAdmin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

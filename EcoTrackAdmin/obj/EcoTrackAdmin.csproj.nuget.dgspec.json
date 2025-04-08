@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\EcoTrackAdmin.csproj": {}
+    "D:\\rest\\ftf\\EcoTrack_Admin_\\EcoTrackAdmin\\EcoTrackAdmin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\EcoTrackAdmin.csproj": {
+    "D:\\rest\\ftf\\EcoTrack_Admin_\\EcoTrackAdmin\\EcoTrackAdmin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\EcoTrackAdmin.csproj",
+        "projectUniqueName": "D:\\rest\\ftf\\EcoTrack_Admin_\\EcoTrackAdmin\\EcoTrackAdmin.csproj",
         "projectName": "EcoTrackAdmin",
-        "projectPath": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\EcoTrackAdmin.csproj",
-        "packagesPath": "C:\\Users\\DESKTOP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DESKTOP\\source\\repos\\EcoTrackAdmin\\EcoTrackAdmin__\\EcoTrackAdmin\\obj\\",
+        "projectPath": "D:\\rest\\ftf\\EcoTrack_Admin_\\EcoTrackAdmin\\EcoTrackAdmin.csproj",
+        "packagesPath": "C:\\Users\\Ambal\\.nuget\\packages\\",
+        "outputPath": "D:\\rest\\ftf\\EcoTrack_Admin_\\EcoTrackAdmin\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DESKTOP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ambal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,21 +48,25 @@
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.11, )"
             },
             "Microsoft.SqlServer.Server": {
               "target": "Package",
@@ -70,7 +74,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[8.0.6, )"
+              "version": "[8.0.7, )"
             }
           },
           "imports": [
@@ -92,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

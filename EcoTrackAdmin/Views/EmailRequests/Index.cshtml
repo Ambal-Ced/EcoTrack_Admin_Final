@@ -1,0 +1,43 @@
+﻿@model IEnumerable<EcoTrackAdmin.Models.EmailRequest>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Email Request</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.currentEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.newEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.userId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.currentEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.newEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.userId)
+            </td>
+            <td>
+                    <a asp-action="Approve" asp-route-id="@item.requestid" class="btn btn-primary">Approve</a>
+                    <a asp-action="Delete" asp-route-id="@item.requestid" class="btn btn-danger">Reject</a>
+        </tr>
+}
+    </tbody>
+</table>

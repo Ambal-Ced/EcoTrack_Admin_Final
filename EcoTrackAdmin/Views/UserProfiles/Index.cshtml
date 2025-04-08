@@ -4,11 +4,9 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Ecotrack User List</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -42,9 +40,9 @@
                     @Html.DisplayFor(modelItem => item.ApplicationUser.Type)
                 </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.UniqueUserName">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.UniqueUserName">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.UniqueUserName">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.UniqueUserName" class="btn btn-yellow">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.UniqueUserName" class="btn btn-primary">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.UniqueUserName" class="btn btn-danger">Delete</a>
             </td>
         </tr>
 }

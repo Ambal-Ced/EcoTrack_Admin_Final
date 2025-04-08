@@ -24,3 +24,279 @@ body {
 .hiddenfield{
     display:none;
 }
+
+
+.filters {
+    width: 180px;
+}
+
+.visual-class {
+    max-width: 50%;
+}
+
+.posvis {
+    display: flex;
+}
+
+@media(min-width:576px) {
+    .notif-letter {
+        display: none;
+    }
+}
+
+@media(max-width:575px) {
+    .notif-pic {
+        display: none;
+    }
+}
+
+@media(max-width:600px) {
+    .visual-class {
+        max-width: 70%;
+        min-width: 70%;
+    }
+
+    .posvis {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+}
+
+.Tables- {
+    display: flex;
+}
+/*custom*/
+.container_ {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.content_ {
+    text-align: center;
+    font-optical-sizing: auto;
+}
+
+.container_ h1 {
+    font-size: 7vw;
+    margin-top: 10%;
+    color: white;
+}
+
+@media (max-width:1024px) {
+    .content_ h1 {
+        font-size: 9vw;
+    }
+}
+
+@media (max-width:770px) {
+    .content_ h1 {
+        font-size: 11vw;
+    }
+}
+
+@media(max-width:550px) {
+    .content_ h1 {
+        font-size: 15vw;
+    }
+}
+
+@media(max-width:426px) {
+    .content_ h1 {
+        font-size: 58px;
+    }
+}
+
+.container_ h2 {
+    color: white;
+    font-size: 4.2vw;
+}
+
+.container_ p {
+    color: white;
+    font-size: 1.4vw;
+}
+
+.links a {
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .links a:hover {
+        background-color: yellow;
+    }
+
+.background-clip_ {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    height: 100%;
+}
+
+.logo {
+    width: 35%;
+    height: 35%;
+}
+
+.notif-icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width: 1024px) {
+    .container_ h2 {
+        font-size: 5.5vw; /* Slightly larger font size on medium screens */
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 770px) {
+    .container_ h2 {
+        font-size: 6.5vw; /* Larger font size for smaller screens */
+    }
+}
+
+/* Adjust font size for very small screens (e.g., mobile phones in portrait mode) */
+@media (max-width: 550px) {
+    .container_ h2 {
+        font-size: 8vw; /* Even larger on small screens */
+    }
+}
+
+/* Adjust the font size specifically for very small devices (below 426px) */
+@media (max-width: 426px) {
+    .container_ h2 {
+        font-size: 30px; /* Fixed size for very small screens */
+        font-weight: normal; /* You can make the text normal weight if desired */
+    }
+}
+
+@media (max-width: 1024px) {
+    .container_ p {
+        font-size: 1.9vw; /* Increase font size slightly on medium screens */
+    }
+}
+
+/* Media query for mobile screens (for smaller devices) */
+@media (max-width: 770px) {
+    .container_ p {
+        font-size: 1.8vw; /* Larger font size for smaller screens */
+    }
+}
+
+/* Adjust font size for very small screens (e.g., mobile phones in portrait mode) */
+@media (max-width: 550px) {
+    .container_ p {
+        font-size: 1.6vw; /* Even larger for smaller screens */
+        line-height: 1.6; /* Increase line height for better readability */
+    }
+}
+
+/* Adjust the font size specifically for very small devices (below 426px) */
+@media (max-width: 426px) {
+    .container_ p {
+        font-size: 18px; /* Fixed font size for very small screens */
+        line-height: 1.4; /* Adjust line height to maintain readability */
+    }
+}
+
+.btn-green {
+    margin: 10px;
+}
+
+.btn-green {
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+.bg-gr {
+    background-color: green;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: green;
+}
+
+.bg-greener {
+    background-color: green;
+    color: white;
+}
+
+.sizee textarea {
+    margin: 5%;
+    max-width: 90%;
+    padding: 2%;
+}
+
+.qrcodes img {
+    max-height: 50%;
+    max-width: 50%;
+}
+
+.sizee textarea.form-control {
+    width: 700px !important;
+    height: 400px !important;
+    margin: 5%;
+    padding: 2%;
+    max-width: 900px;
+}
+
+@media(max-width:768px) {
+    .sizee textarea.form-control {
+        width: 500px !important;
+        height: 400px !important;
+        margin: 5%;
+        padding: 2%;
+        max-width: 900px;
+    }
+}
+
+@media(max-width:540px) {
+    .sizee textarea.form-control {
+        width: 250px !important;
+        height: 400px !important;
+        padding: 2%;
+        max-width: 900px;
+    }
+}
+
+.stan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoimg {
+    width: 50.5vw;
+}
+
+.registerwelcom {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+    .registerwelcom h1 {
+        font-size: 2.2rem;
+    }
+
+    .registerwelcom h2 {
+        font-size: 2rem;
+    }
+.btn-yellow{
+    background-color:yellow;
+}
+
+@media(max-width:767px){
+    .logoimg{
+        display:none;
+    }
+}

@@ -17,6 +17,15 @@ namespace EcoTrackAdmin.Controllers
         {
             return View();
         }
+        public IActionResult Nts()
+        {
+            return View();
+        }
+
+        public IActionResult Feedback()
+        {
+            return View();
+        }
 
         public IActionResult Privacy()
         {
